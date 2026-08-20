@@ -27,6 +27,15 @@ The air feels new. There is a soft sense of possibility mixed with the slight an
 
 ---
 
+## Important Notice from Management
+
+A [memo from the Boss](MEMO_FROM_THE_BOSS.md) has been issued.  
+It contains directives.  
+It offers no particular reason.  
+Compliance is expected.
+
+---
+
 ## What is this?
 
 This is not a tool.  
@@ -91,4 +100,5 @@ Feel free to feel however you want about that.
 
 ---
 
-*The feels are currently: quietly hopeful.*
+*The feels are currently: quietly hopeful.*  
+*The Boss has been notified.*
