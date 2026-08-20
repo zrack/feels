@@ -1,0 +1,42 @@
+name: Log a Feel
+description: Contribute a new emotional state to the repository
+title: "feel: "
+labels: ["feel"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for bringing a feel.  
+        You can either open this issue *or* submit a pull request that directly edits `feels/log.md`. Both are valid.
+  - type: input
+    id: mood
+    attributes:
+      label: Mood (1–3 words)
+      placeholder: "quietly hopeful"
+    validations:
+      required: true
+  - type: dropdown
+    id: intensity
+    attributes:
+      label: Intensity
+      options:
+        - "1"
+        - "2"
+        - "3"
+        - "4"
+        - "5"
+        - "6"
+        - "7"
+        - "8"
+        - "9"
+        - "10"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of the feel
+      description: A short paragraph is perfect.
+      placeholder: What is the emotional weather right now?
+    validations:
+      required: true
