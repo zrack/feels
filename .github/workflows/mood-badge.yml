@@ -1,0 +1,18 @@
+name: Update Mood Badge Placeholder
+
+on:
+  push:
+    paths:
+      - 'feels/**'
+      - 'README.md'
+  workflow_dispatch:
+
+jobs:
+  acknowledge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Acknowledge that feels have changed
+        run: |
+          echo "The feels have been updated."
+          echo "A more sophisticated mood-badge generator can live here someday."
+          echo "For now we simply notice."
